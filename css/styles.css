@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Poppins", sans-serif; 
+    font-weight: 100;
+    box-sizing: border-box;
+}
+
+.top, .perfil, .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nombre {
+    all: unset;
+    margin-left: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    margin-top: -20px;
+    color: #A91D3A;
+}
+
+button {
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    font-weight: bolder;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.medicamentos {
+    background-color: #D2E0FB;
+    border-radius: 5px;
+    padding: 1px 5px;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.farmaceutico {
+    margin-top: 20px;
+    text-align: center;
+}
+
+img {
+    max-height: 300px;
+}
+
+section {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.articulos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    cursor: pointer;
+}
+
+.descripcion {
+    font-weight: 200;
+}
+
+.precio {
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
